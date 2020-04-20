@@ -80,6 +80,4 @@ app.post('/transfer', (req, res) => {
     res.send(req.body);
 });
 
-app.listen(3000, () => {
-    console.log(`PS Project Running on port 3000!`);
-});
+app.listen(3000, () => console.log('PS Project Running on port 3000!'));
